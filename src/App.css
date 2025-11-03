@@ -1,0 +1,87 @@
+.App {
+  text-align: left;
+  background-color: #ffff;
+  color: white;
+  font-family: 'Times New Roman', serif;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.navbar {
+  position: fixed;     /* 화면에 고정 */
+  top: 0;              /* 화면의 맨 위에 위치 */
+  left: 0;
+  width: 100%;         /* 화면 가로 전체 차지 */
+  background-color: #111;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 40px;
+  z-index: 1000;       /* 다른 요소보다 위에 오도록 */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.nav {
+  margin-left: 300px
+}
+
+.navbar a {  
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+
+.header {
+  margin-top: 100px;
+  margin-bottom: 400px;
+}
+
+.hello {
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.title {
+  color: #000000;
+  font-size: 30px;
+}
+
+.subtitle {
+  margin-top: 5pm;
+  color: #aaa;
+}
+
+.subtitle2 {
+  color: #aaa;
+}
+
+.investment {
+  color: #000000;
+}
+
+.portfolio-box {
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 30px;
+  width: 300px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+.profit {
+  color: limegreen;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.loss {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
