@@ -23,10 +23,8 @@ function AnimatedNumber({ target = 3000, duration = 2000 }) {
 }
 
 function App() {
-  // 1️⃣ 상태(state)로 수익률 관리
   const [currentReturn, setCurrentReturn] = useState(-8.4);
 
-  // 2️⃣ 버튼 클릭 시 실행할 함수 정의
   const increase = () => setCurrentReturn(currentReturn + 0.5);
   const decrease = () => setCurrentReturn(currentReturn - 0.5);
 
