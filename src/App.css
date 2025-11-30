@@ -8,17 +8,17 @@
 }
 
 .navbar {
-  position: fixed;     /* 화면에 고정 */
-  top: 0;              /* 화면의 맨 위에 위치 */
+  position: fixed;  
+  top: 0;            
   left: 0;
-  width: 100%;         /* 화면 가로 전체 차지 */
+  width: 100%;       
   background-color: #111;
   color: white;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 15px 40px;
-  z-index: 1000;       /* 다른 요소보다 위에 오도록 */
+  z-index: 1000;      
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
