@@ -8,17 +8,17 @@
 }
 
 .navbar {
-  position: fixed;  
-  top: 0;            
+  position: fixed;     /* 화면에 고정 */
+  top: 0;              /* 화면의 맨 위에 위치 */
   left: 0;
-  width: 100%;       
+  width: 100%;         /* 화면 가로 전체 차지 */
   background-color: #111;
   color: white;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 15px 40px;
-  z-index: 1000;      
+  z-index: 1000;       /* 다른 요소보다 위에 오도록 */
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
@@ -33,13 +33,13 @@
 }
 
 .navbar a:hover {
-  color: #ffcc00;
+  color: #7c7c79;
 }
 
 
 .header {
   margin-top: 100px;
-  margin-bottom: 400px;
+  margin-bottom: 100px;
 }
 
 .hello {
@@ -53,7 +53,7 @@
 }
 
 .subtitle {
-  margin-top: 5pm;
+  margin-top: 5px;
   color: #aaa;
 }
 
@@ -61,7 +61,50 @@
   color: #aaa;
 }
 
+.education {
+  color: #000000;
+  font-size: 30px;
+}
+
+.education1 {
+  margin-left: 30px;
+  color: #000000;
+}
+.education2 {
+  margin-left: 60px;
+  color: #aaa;
+}
+.education3 {
+  color: #aaa;
+}
+.education4 {
+  color: #aaa;
+}
+
+.employment1 {
+  margin-top: 100px;
+  color: #000000;
+  font-size: 30px;
+}
+.employment2 {
+  color: #000000;
+  margin-left: 30px;
+}
+
+.date1 {
+  color: #000000;
+}
+
+.employment3 {
+  margin-left: 60px;
+  color: #aaa;
+}
+.employment4 {
+  color: #aaa;
+}
+
 .investment {
+  margin-top: 30px;
   color: #000000;
 }
 
@@ -84,4 +127,26 @@
   color: red;
   font-size: 24px;
   font-weight: bold;
+}
+
+
+.link {
+  color: #1100ce;
+}
+
+
+
+
+/* Animations */
+.fly-in {
+  opacity: 0;
+  transform: translateX(-80px);
+  animation: flyIn 4s ease-out forwards;
+}
+
+@keyframes flyIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
