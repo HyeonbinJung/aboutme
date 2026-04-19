@@ -5,7 +5,6 @@ import profile from './images/profile.jpg';
 
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <div className="App">
