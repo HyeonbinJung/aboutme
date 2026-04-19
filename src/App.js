@@ -54,7 +54,7 @@ function App() {
             Computer Science | Minor in Combinatorics and Optimization,
             Economics (GPA: 3.58/4.0)
           </p>
-          <p className="text-main indent-1">Seoul National University</p>
+          <p className="text-main indent-1">KAIST</p>
 
           <p className="text-sub indent-2">
             Computer Science | Exchange Student (3A Term)
